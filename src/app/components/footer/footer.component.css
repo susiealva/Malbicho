@@ -1,5 +1,91 @@
+*{
+    color: #8185A6;
+    text-align: left;
+    font-size: 14px;
+
+}
+.row{
+    padding: 30px 10%;
+}
 footer{
     bottom: 0;
     position: absolute;
     text-align: center;
+    background-color: #EBEEF5;
+    width: 100%;
+}
+.contact-link svg{
+    width: 18px;
+}
+#logo{
+    margin: 10%;
+}
+
+p{
+  line-height: 130%;
+}
+h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#copyright{
+    font-size: 12px;
+}
+.cr{
+    background-color: white;
+    text-align: left;
+    padding: 10px;
+    height: 40px;
+    padding-left: 10%;
+}
+.green{
+    color: mediumseagreen!important;
+}
+form{
+    text-align-last: right;}
+
+input{
+		width: 360px;
+		background: none;
+		border: 1px solid #8185A6;
+        border-radius:20px;
+		padding: 15px;
+        text-align-last: left;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.btn {
+    transition-duration: 0.4s;
+	display: inline-block;
+    font-weight: bold;
+	background: #FFD600;
+	color: #323546;
+	border: 0;
+	outline: 0;
+    border-radius:15px;
+	padding: 10px;
+	transition: all 200ms ease-in;
+	cursor: pointer;
+    margin-left: -110px;
+}
+.btn:active{
+    background: #FFD600;
+}
+.btn:hover{
+    box-shadow: 0 12px 10px 0 rgba(0,0,0,0.10), 0 5px 5px 0 rgba(0,0,0,0.19);
+}
+
+.form_field {
+	width: 360px;
+	background: #fff;
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
+	border: 0;
+	outline: 0;
+	padding: 22px 18px;
+	}
+
+a:hover{
+    color:#FFD600;
 }
