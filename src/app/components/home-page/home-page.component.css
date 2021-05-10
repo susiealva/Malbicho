@@ -1,0 +1,11 @@
+.header {
+    width: auto;
+    background-color: blue;
+    height: 414px;
+}
+
+.header p {
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
