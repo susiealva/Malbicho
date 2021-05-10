@@ -7,6 +7,10 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
+import { PromocionesComponent } from './Components/promociones/promociones.component';
+import { CerveceriaComponent } from './Components/cerveceria/cerveceria.component';
+import { TastingRoomComponent } from './Components/tasting-room/tasting-room.component';
+import { CervezasComponent } from './Components/cervezas/cervezas.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
     HeaderComponent,
     FooterComponent,
     HomePageComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    PromocionesComponent,
+    CerveceriaComponent,
+    TastingRoomComponent,
+    CervezasComponent
   ],
   imports: [
     BrowserModule,
