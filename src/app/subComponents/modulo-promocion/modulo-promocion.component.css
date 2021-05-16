@@ -1,2 +1,38 @@
 /********Card********/
-
+* {
+    font-family: 'Poppins';
+}
+.card {
+    margin: 0 35px;
+    width: 300px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+    box-shadow: none;
+}
+.imgFrame {
+    height: 330px;
+    width: 300px;
+}
+.imgFrame img {
+    height: 330px;
+    width: 300px;
+    -moz-box-shadow: 0 0 5px rgb(66, 66, 66);
+    -webkit-box-shadow: 0 0 5px rgb(66,66,66);
+    box-shadow: 0 0 5px rgb(66,66,66);
+}
+h1 {
+    font-size: 14px;
+    text-align: left;
+    display: block;
+    margin: 28px 0 0 15px;
+    color: #8185A6;
+}
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    margin: 0 0 0 15px;
+    color: #8185A6;
+}
