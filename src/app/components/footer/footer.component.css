@@ -7,10 +7,15 @@
     padding: 30px 0 30px 10%;
     text-align: center;
 }
+
+.contact {
+    padding-top: 20px;
+}
 .footer{
     background-color: #EBEEF5;
     width: 100%;
     padding: 30px 10%;
+    margin-bottom: 0;
 }
 .contact-link svg{
     width: 18px;
@@ -18,16 +23,18 @@
 #logo{
     margin: 10%;
 }
-p{
-  line-height: 130%;
+.cr p{
+    margin: 15px 0;
 }
 h1{
     font-size: 20px;
     font-weight: bold;
+    margin-top: 23px;
 }
 
 #copyright{
     font-size: 12px;
+    margin: 0;
 }
 .cr{
     background-color: white;
@@ -35,13 +42,14 @@ h1{
     height: 40px;
     padding-left: 5%;
     width: 100%;
+    margin-top: 10px;
 }
 .green{
     color: mediumseagreen!important;
 }
 form{
-    text-align-last: right;
-    padding-left: 70%;
+    display:inherit !important;
+    float: none;
 }
 
 input{
@@ -57,18 +65,15 @@ textarea:focus, input:focus{
 }
 .btn {
     transition-duration: 0.4s;
-	display: inline-block;
     font-weight: bold;
 	background: #FFD600;
 	color: #323546;
 	border: 0;
 	outline: 0;
     border-radius:15px;
-	padding: 10px;
 	transition: all 200ms ease-in;
 	cursor: pointer;
-    margin-left: -110px;
-    position: relative;
+    text-align: center;
 }
 .btn:active{
     background: #FFD600;
@@ -78,14 +83,10 @@ textarea:focus, input:focus{
 }
 
 .form_field {
-	width: 360px;
 	background: #fff;
 	box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
 	border: 0;
 	outline: 0;
-	padding: 22px 18px;
-    display: inline;
-    position: relative;
 }
 
 a:hover{
