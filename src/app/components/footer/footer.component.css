@@ -1,16 +1,16 @@
+
 *{
     color: #8185A6;
-    text-align: left;
     font-size: 14px;
-
 }
-.row{
-    padding: 30px 10%;
+.map{
+    padding: 30px 0 30px 10%;
+    text-align: center;
 }
 .footer{
-    position: absolute;
     background-color: #EBEEF5;
     width: 100%;
+    padding: 30px 10%;
 }
 .contact-link svg{
     width: 18px;
@@ -18,7 +18,6 @@
 #logo{
     margin: 10%;
 }
-
 p{
   line-height: 130%;
 }
@@ -32,25 +31,27 @@ h1{
 }
 .cr{
     background-color: white;
-    text-align: left;
-    padding: 10px;
+    float: left;
     height: 40px;
-    padding-left: 10%;
+    padding-left: 5%;
+    width: 100%;
 }
 .green{
     color: mediumseagreen!important;
 }
 form{
-    text-align-last: right;}
+    text-align-last: right;
+    padding-left: 70%;
+}
 
 input{
-		width: 360px;
-		background: none;
-		border: 1px solid #8185A6;
-        border-radius:20px;
-		padding: 15px;
-        text-align-last: left;
+	background: none;
+	border: 1px solid #8185A6;
+    border-radius:20px;
+	padding: 15px;
+    text-align-last: left;
 }
+
 textarea:focus, input:focus{
     outline: none;
 }
@@ -67,6 +68,7 @@ textarea:focus, input:focus{
 	transition: all 200ms ease-in;
 	cursor: pointer;
     margin-left: -110px;
+    position: relative;
 }
 .btn:active{
     background: #FFD600;
@@ -82,7 +84,9 @@ textarea:focus, input:focus{
 	border: 0;
 	outline: 0;
 	padding: 22px 18px;
-	}
+    display: inline;
+    position: relative;
+}
 
 a:hover{
     color:#FFD600;
