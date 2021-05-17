@@ -13,6 +13,7 @@ import { TastingRoomComponent } from './components/tasting-room/tasting-room.com
 import { CervezasComponent } from './components/cervezas/cervezas.component';
 import { ModuloPromocionComponent } from './subComponents/modulo-promocion/modulo-promocion.component';
 import { ModuloProductoComponent } from './subcomponents/modulo-producto/modulo-producto.component';
+import { ContactComponent } from './Components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ModuloProductoComponent } from './subcomponents/modulo-producto/modulo-
     TastingRoomComponent,
     CervezasComponent,
     ModuloPromocionComponent,
-    ModuloProductoComponent
+    ModuloProductoComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
