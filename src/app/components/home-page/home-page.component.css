@@ -1,4 +1,4 @@
-/********Banner********/
+/******** Banner ********/
 
 .header {
     width: auto;
@@ -10,7 +10,7 @@
     height: 414px;
 }
 
-/********Promociones********/
+/******** Promociones ********/
 
 .promociones {
     background-color: #EBEEF5;
@@ -51,7 +51,7 @@ h1 {
     box-shadow: 0 12px 10px 0 rgba(0,0,0,0.10), 0 5px 5px 0 rgba(0,0,0,0.19);
 }
 
-/********Información********/
+/******** Información ********/
 
 .information-section {
     margin: 0;
@@ -78,7 +78,7 @@ h1 {
     overflow: hidden;
 }
 
-/********Caracteristicas********/
+/******** Caracteristicas ********/
 
 .features {
     width: 100%;
@@ -92,7 +92,7 @@ h1 {
     width: 80%;
 }
 
-/********Mercancia********/
+/******** Mercancia ********/
 
 .merch {
     display:inherit !important;

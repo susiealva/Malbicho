@@ -1,4 +1,3 @@
-import { DeclarationListEmitMode } from '@angular/compiler';
 import { Component, NgModule, OnInit } from '@angular/core';
 
 @Component({

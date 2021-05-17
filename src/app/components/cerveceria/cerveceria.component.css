@@ -1,0 +1,141 @@
+/******** Banner ********/
+
+.header {
+    width: auto;
+    height: 414px;
+    position: relative;
+} 
+
+.card {
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 0 0 0;
+    border: 0;
+}
+
+.header img {
+    width: 100%;
+    height: 414px;
+}
+
+.card-title{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding: 125px;
+}
+
+.card-title span {
+    color: white;
+    font-size: 48px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.card-title span span {
+    color: rgb(23, 160, 34);
+    font-size: 96px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/******** Historia ********/
+
+.historia {
+    margin: 0;
+}
+
+.historia .row {
+    display: inherit !important;
+    float: none;
+}
+
+.historia .titulo {
+    text-align: center;
+    padding: 125px;
+    background-color: #03B25D;
+    height: 416px;
+}
+
+ .historia h1 {
+    font-size: 48px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: white;
+ }
+ 
+ .historia .texto {
+    background-color: #E5E5E5;
+    padding: 140px;
+    text-align: center;
+ }
+
+ .historia p {
+    color: #8185A6;
+ }
+
+/******** Mision-Vision-Valores ********/
+
+.row .m-v-v {
+
+}
+
+.m-v-v h1 {
+    color: #00B15B;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+.m-v-v p,li {
+    color: #8185A6;
+    font-size: 18px;
+    list-style-type: disc !important;
+}
+
+.m-v-v p,ul {
+    padding: 20px 0;
+}
+
+.Mision, .Vision {
+    text-align: center;
+}
+.Mision, .Vision, .Valores {
+    padding: 110px 60px;
+}
+
+
+/******** About Us ********/ /*&*/ /******** Proceso ********/
+
+.about, .proceso {
+    height: 520px;
+    margin: 0;
+    padding: 0;
+}
+
+.texto {
+    background-color: #EBEEF5;
+    text-align: center;
+    font-family: 'Poppins';
+    padding: 0;
+    margin: 0;
+    padding: 130px 100px;
+}
+
+.texto h1{
+    color: #00B15B;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.texto p {
+    color: #8185A6;
+}
+
+.frame {
+    margin: 0;
+    padding: 0;
+}
+
