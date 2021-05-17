@@ -1,0 +1,95 @@
+* {
+    font-family: 'Poppins';
+}
+
+/******** Button Universal ********/
+#flecha {
+    width: 25px !important;
+    height: 25px !important;
+    float: right;
+    vertical-align: middle;
+
+}
+
+.btn {
+    transition-duration: 0.2s;
+	background: #EBEEF5;
+	color: #8185A6;
+    line-height: 0;
+	transition: all 100ms ease-in;
+	cursor: pointer;
+    font-size: 18px;
+    width: 550px;
+    height: 65px;
+    text-align: inherit;
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+}
+
+.btn .row {
+    margin: 0;
+    padding: 0;
+}
+
+.btn div {
+    margin: 0;
+    padding: 0;
+}
+
+.btn p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.btn path {
+    fill: #00B15B;
+}
+
+.btn:active {
+    background: #00B15B;
+    color: white;
+}
+
+.btn:active path {
+    fill: white;
+}
+
+.btn:hover {
+    background: #00B15B;
+    color: white;
+}
+
+.btn:hover path {
+    fill: white;
+}
+
+
+.btn svg {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    margin: 0 40px 0 15px;
+    line-height: 0;
+}
+
+
+
+/******** Titulos ********/
+
+h1 {
+    font-size: 36px;
+    color: #00B15B;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: normal;
+    color: black;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #8185A6;
+}

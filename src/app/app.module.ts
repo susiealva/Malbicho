@@ -9,11 +9,12 @@ import { HomePageComponent } from './components/home-page/home-page.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { PromocionesComponent } from './components/promociones/promociones.component';
 import { CerveceriaComponent } from './components/cerveceria/cerveceria.component';
-import { TastingRoomComponent } from './components/tasting-room/tasting-room.component';
 import { CervezasComponent } from './components/cervezas/cervezas.component';
 import { ModuloPromocionComponent } from './subComponents/modulo-promocion/modulo-promocion.component';
-import { ModuloProductoComponent } from './subcomponents/modulo-producto/modulo-producto.component';
-import { ContactComponent } from './Components/contact/contact.component';
+import { ModuloProductoComponent } from './subComponents/modulo-producto/modulo-producto.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { CarritoComponent } from './components/carrito/carrito.component';
+import { PagoComponent } from './components/pago/pago.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +25,12 @@ import { ContactComponent } from './Components/contact/contact.component';
     LandingPageComponent,
     PromocionesComponent,
     CerveceriaComponent,
-    TastingRoomComponent,
     CervezasComponent,
     ModuloPromocionComponent,
     ModuloProductoComponent,
-    ContactComponent
+    ContactComponent,
+    CarritoComponent,
+    PagoComponent
   ],
   imports: [
     BrowserModule,
