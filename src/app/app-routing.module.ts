@@ -6,6 +6,7 @@ import { HomePageComponent } from './components/home-page/home-page.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { PromocionesComponent } from './components/promociones/promociones.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { ProductComponent } from './components/product/product.component';
 
 const routes: Routes = [
 {path: '', component: HomePageComponent},
@@ -13,7 +14,8 @@ const routes: Routes = [
 {path: 'cervezas', component: CervezasComponent},
 {path: 'promociones', component: PromocionesComponent},
 {path: 'contact', component: ContactComponent},
-{path: 'landing', component: LandingPageComponent}
+{path: 'landing', component: LandingPageComponent},
+{path: 'product', component: ProductComponent}
 ];
 
 

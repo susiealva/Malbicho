@@ -15,6 +15,7 @@ import { ModuloProductoComponent } from './subComponents/modulo-producto/modulo-
 import { ContactComponent } from './components/contact/contact.component';
 import { CarritoComponent } from './components/carrito/carrito.component';
 import { PagoComponent } from './components/pago/pago.component';
+import { ProductComponent } from './components/product/product.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { PagoComponent } from './components/pago/pago.component';
     ModuloProductoComponent,
     ContactComponent,
     CarritoComponent,
-    PagoComponent
+    PagoComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,

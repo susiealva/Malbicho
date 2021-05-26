@@ -3,6 +3,7 @@
 }
 
 /******** Button Universal ********/
+
 #flecha {
     width: 25px !important;
     height: 25px !important;
@@ -109,6 +110,7 @@ h4 {
 }
 
 /******** Information Section ********/
+
 .interactionSection {
     margin: 83px 0;
 }
@@ -137,10 +139,12 @@ h4 {
 
 /******** Location Info ********/
 
-/******** Panel Derecho ********/
+
 .locationInfo {
     margin: 0;
 }
+
+/******** Panel Derecho ********/
 
 .map {
     width: auto;

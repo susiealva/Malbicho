@@ -1,0 +1,166 @@
+* {
+    font-family: 'Poppins';
+}
+
+.product {
+    margin: 120px 8%;
+}
+
+/******** Panel Izquierdo ********/
+
+.images {
+}
+
+/******** Imagenes Producto ********/
+
+.product-gallery {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 500px;
+}
+
+.product-gallery {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.product-gallery::-webkit-scrollbar {
+    display: none;
+}
+
+.product-gallery img{
+    width: 142px;
+    height: 142px;
+    margin: 0 15px 15px 15px;
+}
+
+.product-img {
+    text-align: center;
+    width: 414px;
+    height: 600px;
+}
+
+.product-img img {
+    height: inherit;
+}
+
+/******** Panel Derecho ********/
+
+.information {
+    padding: 0 0 0 72px;
+}
+
+/******** Titulos y texto ********/
+
+h1 {
+    color: #3FC383;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0 0 20px 0;
+}
+
+h2 {
+    color: #8185A6;
+    font-size: 18px;
+    margin: 0 0 25px 0;
+}
+
+h3{
+    color: #8185A6;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+h4 {
+    color: #3FC383;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 0 60px 0;
+}
+
+p {
+    color: #8185A6;
+    font-size: 14px;
+}
+
+/******** Botones ********/
+
+.counter {
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    width: 30%;
+    padding: 0 20px;
+}
+
+.counter button {
+    border: 0;
+
+}
+
+.counter input {
+    display: inline-block;
+    width: 30%;
+    border: none;
+    text-align: center;
+}
+
+.counter button {
+    margin: 0;
+    display: inline-block;
+    width: 33%;
+    background-color: white;
+    padding: 20% 0;
+}
+
+.btn1 {
+    transition-duration: 0.4s;
+    font-weight: bold;
+	background: #FFD600;
+	color: #282b3a;
+	border: 0;
+	outline: 0;
+    border-radius:15px;
+	transition: all 200ms ease-in;
+	cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    width: 15%;
+    height: 50px;
+    margin: 45px 0 80px 0px;
+    box-shadow: 0 12px 10px 0 rgba(0,0,0,0.10);
+}
+
+.btn1:active {
+    background: #FFD600;
+}
+
+.btn1:hover {
+    box-shadow: 0 12px 10px 0 rgba(0,0,0,0.10), 0 5px 5px 0 rgba(0,0,0,0.19);
+}
+
+.btn2 {
+    transition-duration: 0.4s;
+    font-weight: bold;
+	background: rgb(255, 255, 255);
+	color: #323546;
+	border: 0px;
+	outline: 2px;
+    border-radius:15px;
+	transition: all 200ms ease-in;
+	cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    width: 15%;
+    height: 50px;
+    margin: 45px 0 80px 0px;
+    box-shadow: 0 12px 10px 0 rgba(0,0,0,0.10);
+}
+
+.btn2:active {
+    background: rgb(255, 255, 255);
+}
+
+.btn2:hover {
+    box-shadow: 0 12px 10px 0 rgba(0,0,0,0.10), 0 5px 5px 0 rgba(0,0,0,0.19);
+}
