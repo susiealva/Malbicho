@@ -7,6 +7,8 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
 import { PromocionesComponent } from './components/promociones/promociones.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ProductComponent } from './components/product/product.component';
+import { CarritoComponent } from './components/carrito/carrito.component';
+import { PagoComponent } from './components/pago/pago.component';
 
 const routes: Routes = [
 {path: '', component: HomePageComponent},
@@ -15,7 +17,9 @@ const routes: Routes = [
 {path: 'promociones', component: PromocionesComponent},
 {path: 'contact', component: ContactComponent},
 {path: 'landing', component: LandingPageComponent},
-{path: 'product', component: ProductComponent}
+{path: 'product', component: ProductComponent},
+{path: 'carrito', component: CarritoComponent},
+{path: 'pago', component: PagoComponent}
 ];
 
 
