@@ -1,0 +1,90 @@
+* {
+    font-family: 'Poppins';
+}
+
+.btn1 {
+    transition-duration: 0.4s;
+    font-weight: bold;
+    background: #FFD600;
+    color: #282b3a;
+    border: 0;
+    outline: 0;
+    border-radius:15px;
+    transition: all 200ms ease-in;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    height: 50px;
+    margin: 45px 0 80px 0px;
+    box-shadow: 0 12px 10px 0 rgba(0,0,0,0.10);
+    text-transform: none;
+    width: 180px;
+  }
+  
+  .btn1:active {
+    background: #FFD600;
+  }
+  
+  .btn1:hover {
+    box-shadow: 0 12px 10px 0 rgba(0,0,0,0.10), 0 5px 5px 0 rgba(0,0,0,0.19);
+  }
+  
+  .info {
+      background-color: #EBEEF5;
+      padding: 0;
+      margin: 0;
+      max-height: 100vh;
+      overflow: hidden;
+  }
+
+  .fondo {
+      width: 100%;
+      max-height: 100vh;
+      overflow: hidden;
+  }
+
+  .fondo img {
+    width: 100%;
+  }
+
+  .fondo {
+    padding: 0;
+    margin: 0;
+  }
+
+  .logo {
+      width: 60%;
+      text-align: center;
+      margin:25% 10% 0;
+  }
+
+  .logo path {
+      fill: #8185A6;
+  }
+
+  .marcaAgua {
+      width: 25%;
+      margin: 0;
+      padding: 0;
+  }
+
+  .marcaAgua path,polygon {
+       fill: #3DC281;  
+  }
+
+  .lata {
+      height: 85vh;
+      display: flex;
+      position: absolute;
+        margin: 5% 0 0 45%;
+  }
+
+  .lata img{
+      height: inherit;
+      display: flex;
+  }
+
+  .contenedorLand {
+      margin: 0;
+      padding: 0;
+  }

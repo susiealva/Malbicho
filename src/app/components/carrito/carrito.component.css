@@ -1,1 +1,219 @@
-/******** Información ********/
+* {
+    font-family: 'Poppins';
+}
+
+hr {
+    height: 2px;
+    color: #8185A6;
+}
+
+.row>* {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.row h2 {
+    margin-top: 35px;
+}
+
+/******** Container Carrito ********/
+
+.carrito {
+    margin: 0 6%;
+    margin-bottom: 120px;
+}
+
+.modulosCarrito {
+    text-align: center;
+}
+
+/******** Titulos ********/
+
+h1 {
+    color: #00B15B;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 8%;
+    margin-top: 70px;
+}
+
+h2 {
+    color: #8185A6;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+h3 {
+    color: #8185A6;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+    height: 90px;
+}
+
+h4 {
+    color: #8185A6;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 40px 0;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/******** Boton pago ********/
+
+.btn {
+    transition-duration: 0.4s;
+    font-weight: bold;
+	background: #FFD600;
+	color: #282b3a;
+	border: 0;
+	outline: 0;
+    border-radius:15px;
+	transition: all 200ms ease-in;
+	cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    height: 50px;
+    margin: 45px 0 80px 0px;
+    box-shadow: 0 12px 10px 0 rgba(0,0,0,0.10);
+    text-transform: none;
+}
+
+.btn:active {
+    background: #FFD600;
+}
+
+.btn:hover {
+    box-shadow: 0 12px 10px 0 rgba(0,0,0,0.10), 0 5px 5px 0 rgba(0,0,0,0.19);
+}
+
+/******** Container Carrito ********/
+
+.informacion {
+    display: inline-block;
+    margin: 0 40px 0 0;
+}
+
+.recibo {
+    display: inline-block;
+    margin: 0;
+    float: right;
+    position: relative;
+}
+
+/******** Panel Izquierdo ********/
+
+.containerPanel {
+    margin: 0;
+}
+
+.headerItemList .row {
+    height: 90px;
+}
+
+
+.headerItemList {
+    margin-bottom: 20px;
+}
+
+.headerItemList hr {
+    margin-top: 0;
+}
+
+.informacion {
+    width: 65%;
+}
+
+/******** Panel Derecho ********/
+
+/******** Recibo ********/
+
+
+.recibo {
+    background-color: #EBEEF5;
+    width: 320px;
+    text-align: center;
+    float: right;
+}
+
+.recibo h3 {
+    padding-top: 35px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.cajaTitulo hr{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.cajaTitulo hr {
+    margin-top: 0;
+    width: 80%;
+}
+
+/******** Contenido Recibo ********/
+
+.tablaIzquierda {   
+    display: inline-block;
+    text-align: left;
+}
+
+.tablaDerecha {
+    display: inline-block;
+    text-align: right;
+}
+
+.tablaIzquierda h4,h5 {   
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.tablaDerecha h4,h5 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.tablaIzquierda h5{
+    color: #8185A6;
+}
+
+.tablaDerecha {
+    color: #00B15B;
+}
+
+.detalles {
+    height:400px;
+}
+
+/******** Price Section ********/
+
+.PriceSection {
+
+}
+
+.subtotalBox {
+    background-color: #EBEEF5;
+    height: 75px;
+    width: 370;
+    float: right;
+}
+
+.subtotalBox h5 {
+    margin-top: 15%;
+}
+
+.subtotalBox .tablaIzquierda h5 {
+    margin-right: 80px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.subtotalBox .tablaDerecha h5 {
+    margin-left: 80px;
+    margin-right: 20px;
+}

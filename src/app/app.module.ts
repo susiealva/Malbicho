@@ -17,6 +17,8 @@ import { CarritoComponent } from './components/carrito/carrito.component';
 import { PagoComponent } from './components/pago/pago.component';
 import { ProductComponent } from './components/product/product.component';
 import { ModuloCarritoComponent } from './subComponents/modulo-carrito/modulo-carrito.component';
+import { SuccessPageComponent } from './components/success-page/success-page.component';
+import { ModuloMercanciaComponent } from './subComponents/modulo-mercancia/modulo-mercancia.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { ModuloCarritoComponent } from './subComponents/modulo-carrito/modulo-ca
     CarritoComponent,
     PagoComponent,
     ProductComponent,
-    ModuloCarritoComponent
+    ModuloCarritoComponent,
+    SuccessPageComponent,
+    ModuloMercanciaComponent
   ],
   imports: [
     BrowserModule,

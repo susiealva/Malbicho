@@ -109,8 +109,9 @@
 
 /******** About Us ********/ /*&*/ /******** Proceso ********/
 
-.about, .proceso {
+.about,.proceso {
     height: 520px;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -137,5 +138,12 @@
 .frame {
     margin: 0;
     padding: 0;
+    height: 520px;
+    width: 100%;
+}
+
+.frame img {
+    height: 520px;
+    width: 100%;
 }
 

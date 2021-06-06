@@ -9,6 +9,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { ProductComponent } from './components/product/product.component';
 import { CarritoComponent } from './components/carrito/carrito.component';
 import { PagoComponent } from './components/pago/pago.component';
+import { SuccessPageComponent } from './components/success-page/success-page.component';
 
 const routes: Routes = [
 {path: '', component: HomePageComponent},
@@ -19,7 +20,8 @@ const routes: Routes = [
 {path: 'landing', component: LandingPageComponent},
 {path: 'product', component: ProductComponent},
 {path: 'carrito', component: CarritoComponent},
-{path: 'pago', component: PagoComponent}
+{path: 'pago', component: PagoComponent},
+{path: 'success', component: SuccessPageComponent},
 ];
 
 

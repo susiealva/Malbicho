@@ -1,0 +1,69 @@
+* {
+    font-family: 'Poppins';
+}
+
+/******** Information Section ********/
+
+.box1 {
+    height: 150px;
+    width: 130px;
+    text-align: center;
+}
+
+.box1 img{
+    height: inherit;
+}
+
+.box2 {
+    text-align: center;
+}
+
+h1 {
+    color: #00B15B;
+    font-size: 18px;
+    margin: 50% 0 0 0;
+}
+
+h2 {
+    color: #323546;
+    font-size: 18px;
+    margin: 50% 0 0 0;
+    text-align: center;
+}
+
+.btnContainer {
+    background-color: #EBEEF5;
+    width: 100%;
+    height: 50px;
+    margin: 40% 0 0 0;
+}
+
+.btnContainer button {
+    border: none;
+    background: none;
+    color: #00B15B;
+    font-weight: bold;
+}
+
+.btnContainer input {
+    text-align: center;
+    border: none;
+}
+
+.box6 path {
+    fill: #00B15B;
+}
+
+.box6 svg {
+    width: 25px;
+    margin: 50% 0 0 0;
+}
+
+.box6 {
+    text-align: center;
+}
+
+hr {
+    width: calc(100% - 40px);
+    margin: 15px 20px 15px 0;
+}

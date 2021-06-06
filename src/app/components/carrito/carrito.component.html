@@ -1,28 +1,38 @@
 <!------- titulo -------->
-<h1></h1>
+<h1>Carrito</h1>
 
 <!------- Container Carrito -------->
 
 <div class="carrito">
 
+        <div class="modulosCarrito">
+            
 <!------- Panel Izquierdo -------->
 
-    <div class="informacion">
+        <div class="informacion">
 
-        <div class="headerItemList">
-            <h2></h2>
-            <h2></h2>
-            <h2></h2>
-            <h2></h2>
-        </div>
+<!------- Informacion -------->
 
-<!------- Panel Componentes -------->
+                <div class="headerItemList">
+                    <div class="row">
+                        
+                        <h2 class="col s2 col-2"></h2>
+                        <h2 class="col s2 col-2">Producto</h2>
+                        <h2 class="col s2 col-2">Precio</h2>
+                        <h2 class="col s2 col-2">Cantidad</h2>
+                        <h2 class="col s2 col-2">Total</h2>
+                        <h2 class="col s2 col-2"></h2>
+                        
+                    </div>
+        
+                    <hr> 
+                </div>
 
-        <div class="modulosCarrito">
+<!------- Modulos Items -------->
+
             <app-modulo-carrito></app-modulo-carrito>
             <app-modulo-carrito></app-modulo-carrito>
             <app-modulo-carrito></app-modulo-carrito>
-        </div>
 
 <!------- secion subtotal -------->
 
@@ -30,51 +40,50 @@
 
             <div class="subtotalBox">
                 <div class="tablaIzquierda">
-                    <h5></h5>
+                    <h5>Subtotal</h5>
                 </div>
                 <div class="tablaDerecha">
-                    <h5></h5>
+                    <h5>$645.00</h5>
                 </div>
             </div>
 
         </div>
 
-    </div>
+        </div>
 
-<!------- Panel Izquierdo -------->
+<!------- Panel Derecho -------->
 
-    <div class="reciboBox">
-        
 <!------- Recibo -------->
-
+    
         <div class="recibo">
-            <h3></h3>
-            <hr>
+            <div class="cajaTitulo">
+                <h3>Detalles del pedido</h3>
+                <hr>
+            </div>
 
-            <div class="detalles row">
+            <div class="detalles">
                 <div class="tablaIzquierda">
-                    <h4></h4>
-                    <h4></h4>
-                    <h4></h4>
+                    <h4>Subtotal</h4>
+                    <h4>Envio</h4>
+                    <h4>IVA</h4>
                 </div>
                 <div class="tablaDerecha">
-                    <h4></h4>
-                    <h4></h4>
-                    <h4></h4>
+                    <h4>$645.00</h4>
+                    <h4>$35.00</h4>
+                    <h4>$52.00</h4>
                 </div>
             </div>
             
-            <div class="total row">
+            <div class="total">
                 <div class="tablaIzquierda">
-                    <h5></h5>
+                    <h5>Total</h5>
                 </div>
                 <div class="tablaDerecha">
-                    <h5></h5>
+                    <h5>732</h5>
                 </div>
             </div>
-            <a routerLink="/pago"><button></button></a>
+            <a routerLink="/pago"><button class="btn">Proceder al pago</button></a>
         </div>
 
     </div>
-
 </div>

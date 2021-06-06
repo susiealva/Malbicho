@@ -1,1 +1,51 @@
-<p>pago works!</p>
+<!------- Info Pago -------->
+
+<h1>Detalles de pedido</h1>
+
+<!------- forma de pago -------->
+<div class="row contenedor">
+<form class="" action="">
+
+<!------- Panel Derecho -------->
+
+    <div class="panelIzquierdo col s-6 col-6">
+        <div class="container">
+            <label for="fname">Nombre</label>
+            <input type="text" value="Jon Guerrero">
+        </div>
+        <div class="container">
+            <label for="fstate">Estado</label>
+            <input type="text" value="Baja California">
+        </div>
+        <div class="container">
+            <label for="fcity">Ciudad</label>
+            <input type="text" value="Mexicali">
+        </div>
+        <div class="container">
+            <label for="Faddress">Dirección</label>
+            <input type="text" value="La calle #123 Col. Los Pinos">
+        </div>
+        <div class="container">
+            <input type="checkbox" id="checkboxPickUp" name="pickUp" value="true">
+            <label for="Fcheck">Recojer en local</label>
+        </div>
+    </div>
+
+<!------- Panel Izquierdo -------->
+
+    <div class="panelDerecho col s-6 col-6">
+        <div class="container">
+            <label for="">Correo Electrónico</label>
+            <input type="text" value="nombre@dominio.com">
+        </div>
+        <div class="container">
+            <label for="">télefono</label>
+            <input type="text" value="555-555-5555">
+        </div>
+        <div class="container">
+            <input routerLink="/success" class="btn1" type="submit" value="Proceder a Pago" >
+        </div>
+    </div>
+
+</form>
+</div>

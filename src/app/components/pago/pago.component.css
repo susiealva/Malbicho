@@ -1,0 +1,89 @@
+input[type=checkbox]{
+  -webkit-appearance:checkbox;
+  opacity: 100%;
+  position: static;
+  pointer-events: all;
+}
+
+.container input[type=text] {
+  background-color: #EBEEF5;
+  width: 100%;
+  border: none;
+  color: #323546;
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 16px;
+}
+
+.container {
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+
+h1 {
+  color: #00B15B;
+  font-size: 36px;
+  font-weight: bold;
+  margin-left: 10%;
+  margin-top: 70px;
+}
+
+label {
+  color: #8185A6;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 20px 0 16px 0;
+}
+
+.panelDerecho {
+  padding-left: 5%;
+}
+
+.panelIzquierdo {
+  padding-right: 5%;
+}
+
+.contenedor {
+  margin: 0 10%;
+}
+
+form {
+  padding: 10px;
+  text-align: center;
+}
+
+form label {
+  float: left;
+}
+
+.btn1 {
+  transition-duration: 0.4s;
+  font-weight: bold;
+  background: #FFD600;
+  color: #282b3a;
+  border: 0;
+  outline: 0;
+  border-radius:15px;
+  transition: all 200ms ease-in;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  height: 50px;
+  margin: 45px 0 80px 0px;
+  box-shadow: 0 12px 10px 0 rgba(0,0,0,0.10);
+  text-transform: none;
+}
+
+.btn1:active {
+  background: #FFD600;
+}
+
+.btn1:hover {
+  box-shadow: 0 12px 10px 0 rgba(0,0,0,0.10), 0 5px 5px 0 rgba(0,0,0,0.19);
+}
+
+input[type=submit] {
+  float: right;
+  width: 240px;
+}
