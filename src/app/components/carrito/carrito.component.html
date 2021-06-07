@@ -24,15 +24,14 @@
                         <h2 class="col s2 col-2"></h2>
                         
                     </div>
-        
+         
                     <hr> 
                 </div>
 
 <!------- Modulos Items -------->
 
-            <app-modulo-carrito></app-modulo-carrito>
-            <app-modulo-carrito></app-modulo-carrito>
-            <app-modulo-carrito></app-modulo-carrito>
+            <app-modulo-carrito *ngFor="let product of productService.getCarrito()" [product] = "product"></app-modulo-carrito>
+
 
 <!------- secion subtotal -------->
 
@@ -68,7 +67,7 @@
                     <h4>IVA</h4>
                 </div>
                 <div class="tablaDerecha">
-                    <h4>$645.00</h4>
+                    <h4>${{product.precio}}+{{cantidad_P}}</h4>
                     <h4>$35.00</h4>
                     <h4>$52.00</h4>
                 </div>

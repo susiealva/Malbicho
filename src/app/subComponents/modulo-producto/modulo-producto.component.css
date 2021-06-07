@@ -14,11 +14,13 @@
 
 .product {
     text-align: center;
+    width: 360px;
 }
 
 .product img {
     padding: 0 20px;
-    height: 460px;
+    height: 440px;
+    width: inherit;
 }
 
 .info-box {

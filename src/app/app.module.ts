@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
+import { ProductsService } from './services/products.service';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -19,6 +21,8 @@ import { ProductComponent } from './components/product/product.component';
 import { ModuloCarritoComponent } from './subComponents/modulo-carrito/modulo-carrito.component';
 import { SuccessPageComponent } from './components/success-page/success-page.component';
 import { ModuloMercanciaComponent } from './subComponents/modulo-mercancia/modulo-mercancia.component';
+import { ProductwrapperComponent } from './components/productwrapper/productwrapper.component';
+
 
 @NgModule({
   declarations: [
@@ -38,13 +42,15 @@ import { ModuloMercanciaComponent } from './subComponents/modulo-mercancia/modul
     ProductComponent,
     ModuloCarritoComponent,
     SuccessPageComponent,
-    ModuloMercanciaComponent
+    ModuloMercanciaComponent,
+    ProductwrapperComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [ProductComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,11 +1,12 @@
 <!------- Product Card -------->
-
-<div class="prod">
-    <div class="product">
-        <img src="assets/modulo-producto/test.png" alt="beer">
+<a (click)="addToProduct()" routerLink="/productWrapper">
+    <div class="prod">
+        <div class="product">
+            <img src="{{data.imgPrincipal}}" alt="beer">
+        </div>
+        <div class="info-box">
+            <h1>{{data.nombre}}</h1>
+            <h2>${{data.precio}}</h2>
+        </div>
     </div>
-    <div class="info-box">
-        <h1>Andrómeda</h1>
-        <h2>$65.00</h2>
-    </div>
-</div>
+</a>

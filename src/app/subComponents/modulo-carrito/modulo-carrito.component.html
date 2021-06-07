@@ -2,19 +2,19 @@
 <div class="component">
     <div class="containerPanel row">
         <div class="box1 col s2 col-2">
-            <img src="assets/carrito/test.png" alt="">
+            <img src="{{product.imgPrincipal}}" alt="">
         </div>
         <div class="box2 col s2 col-2">
-            <h1>Andromeda</h1>
+            <h1>{{product.nombre}}</h1>
         </div>
         <div class="box3 col s2 col-2">
-            <h2>$65.00</h2>
+            <h2>${{product.precio}}</h2>
         </div>
         <div class="box4 col s2 col-2">
             <div class="btnContainer row">
-                <button class="button-count no-active col s4 col-4">-</button>
-                    <input class="number-product col s4 col-4" type="text" readonly value="1">
-                <button class="button-count col s4 col-4">+</button>
+                <button class=" no-active col s4 col-4">-</button>
+                    <input class=" col s4 col-4" type="text" value="{{product.cantidad_P}}">
+                <button class=" col s4 col-4" (Click)="addToProduct()">+</button>
             </div> 
         </div>
         <div class="box5 col s2 col-2">

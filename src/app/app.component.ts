@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
-import { map } from 'jquery';
 
 @Component({
   selector: 'app-root',

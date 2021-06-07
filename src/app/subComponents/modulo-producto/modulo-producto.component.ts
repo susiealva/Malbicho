@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { ProductsService } from '../../services/products.service'
+
 
 @Component({
   selector: 'app-modulo-producto',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ModuloProductoComponent implements OnInit {
 
-  constructor() { }
+  @Input() data:any;
+
+  constructor(public productService: ProductsService) { }
 
   ngOnInit(): void {
+    
+  }
+  addToProduct(){
+    this.productService.addToProduct(this.data);
   }
 
 }

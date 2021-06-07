@@ -2,18 +2,12 @@
     <h1>Cervezas</h1>
 
     <div>
-        <a routerLink="/product"><app-modulo-producto></app-modulo-producto></a>
-        <a routerLink="/product"><app-modulo-producto></app-modulo-producto></a>
-        <a routerLink="/product"><app-modulo-producto></app-modulo-producto></a>    
+        <a><app-modulo-producto *ngFor="let product of productService.products" [data] = "product"></app-modulo-producto></a>
+   
     </div>
 
-    <div>
-        <a routerLink="/product"><app-modulo-producto></app-modulo-producto></a>
-        <a routerLink="/product"><app-modulo-producto></app-modulo-producto></a>
-        <a routerLink="/product"><app-modulo-producto></app-modulo-producto></a>
-    </div>
 
-    <h1>Mercancía</h1>
+ <!--   <h1>Mercancía</h1>
 
     <div>
         <a routerLink="/product"><app-modulo-mercancia></app-modulo-mercancia></a>
@@ -26,4 +20,4 @@
         <a routerLink="/product"><app-modulo-mercancia></app-modulo-mercancia></a>
         <a routerLink="/product"><app-modulo-mercancia></app-modulo-mercancia></a>
     </div>
-</div>
+</div> -->
